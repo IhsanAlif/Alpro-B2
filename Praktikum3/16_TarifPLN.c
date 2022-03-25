@@ -1,4 +1,4 @@
-/*Nama file : 17_TarifPLN*/
+/*Nama file : 16_TarifPLN*/
 /*Pembuat   : Ihsan Alif Lazuardi Anwar- 24060121140162*/
 /*Deskripsi : Menghitung besarnya tarif listrik yang dikenakan berdasarkan golongan dan pemakaian daya listrik.*/
 /*Tanggal   : Jum'at,8 Maret 2022*/
