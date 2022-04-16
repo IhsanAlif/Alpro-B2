@@ -1,0 +1,39 @@
+/*Program Utama*/
+int main()
+{
+    /*Kamus*/
+    int A[10] = {1,2,3,4,5,6,7,8,9,10};
+    int N = 10;
+    int X = 5;
+    int f;
+
+    /*Algoritma*/
+    f = seqSearch(A,N,X);
+    if(f != -1){
+        printf("X ketemu di index ke %d\n", f);
+    }
+    else{
+        printf("X Tidak ketemu\n");
+    }
+
+    return 0;
+}
+
+int seqSearch(int T[], int N, int X)
+{
+    /*Kamus Lokal*/
+    int i; /*Counter*/
+
+    /*Algoritma*/
+    i = 0;
+    while(i < N-1 && T[i] != X){
+        printf("%d\n", i);
+        i++;
+    }
+    if(T[i] == X){
+        return i;
+    }
+    else{
+        return -1;
+    }
+}
